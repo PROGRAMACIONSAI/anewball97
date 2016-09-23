@@ -1,0 +1,103 @@
+@import 'https://fonts.googleapis.com/css?family=Baloo+Bhaina';
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
++ {
+box-sizing: border-box;
+
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+body{
+	margin: 0;
+font-family: 'Open Sans', sans-serif;	
+}
+h1, h2, h3 {
+	font-family: 'Baloo Bhaina', cursive;
+	letter-spacing: 1.5px;
+}
+
+/*----------------estilos del header---------------*/
+
+.header{
+	height: 60px;
+}
+.header .contenedor{
+display: flex;
+justify-content: space-between;	
+}
+.logo, .icon-menu{
+	margin: 5px;
+	color: white;
+}
+.icon-menu{
+	display: block;
+	width: 40px;
+	height: 40px;
+	font-size: 30px;
+	background: #FBA919;
+	color: #fff;
+	text-align: center;
+	line-height: 45px;
+	border-radius: 5px;
+	margin-left: auto;
+	cursor: pointer;
+}
+/*------estilos del menu-----------*/
+
+.nav {
+	position: absolute;
+	top: 60px;
+	left: -100%;
+	width: 100%;
+}
+.menu{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+
+.menu_link{
+	display: block;
+	padding: 20px;
+	background: #FBA919;
+	text-decoration: none;
+	color: #fff;
+}
+
+.menu_link:hover{
+	background: white;
+	color: #FBA919;
+}
+
+.mostrar{
+	left: 0;
+}
+.select{
+background: white;
+color: #FBA919;	
+}
+/*estilos del banner*/
+.banner{
+	margin-top: -60px;
+	position: relative;
+	z-index: -1000;
+}
+.banner .contenedor{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(
+		-50%) translateY(-50%);
+	width: 100%;
+	color: #fff;
+	text-align: center;
+
+
+}
+
+.banner_txt{
+	display: none;
+}
